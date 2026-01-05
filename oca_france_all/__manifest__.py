@@ -54,6 +54,7 @@
         "portal_odoo_debranding",
         "remove_odoo_enterprise",
         # OCA/server-tools
+        "module_analysis",
         "module_change_auto_install",
         # OCA/server-ux
         "base_technical_features",
