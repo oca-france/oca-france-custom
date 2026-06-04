@@ -321,6 +321,15 @@ wheels = [
 ]
 
 [[package]]
+name = "cssselect"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/2e/cdfd8b01c37cbf4f9482eefd455853a3cf9c995029a46acd31dfaa9c1dd6/cssselect-1.4.0.tar.gz", hash = "sha256:fdaf0a1425e17dfe8c5cf66191d211b357cf7872ae8afc4c6762ddd8ac47fc92", size = 40589, upload-time = "2026-01-29T07:00:26.701Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/20/0c/7bb51e3acfafd16c48875bf3db03607674df16f5b6ef8d056586af7e2b8b/cssselect-1.4.0-py3-none-any.whl", hash = "sha256:c0ec5c0191c8ee39fcc8afc1540331d8b55b0183478c50e9c8a79d44dbceb1d8", size = 18540, upload-time = "2026-01-29T07:00:24.994Z" },
+]
+
+[[package]]
 name = "decorator"
 version = "5.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -849,6 +858,7 @@ dependencies = [
     { name = "odoo-addon-website-partner-form" },
     { name = "odoo-addon-website-search-header" },
     { name = "odoo-addon-website-social-media-link" },
+    { name = "openupgradelib" },
     { name = "packaging" },
     { name = "pdfminer" },
     { name = "phonenumbers" },
@@ -930,6 +940,7 @@ requires-dist = [
     { name = "odoo-addon-website-partner-form", specifier = "==18.0.*" },
     { name = "odoo-addon-website-search-header", specifier = "==18.0.*" },
     { name = "odoo-addon-website-social-media-link", git = "https://github.com/OCA/website?subdirectory=website_social_media_link&rev=refs%2Fpull%2F1170%2Fhead" },
+    { name = "openupgradelib" },
     { name = "packaging" },
     { name = "pdfminer" },
     { name = "phonenumbers" },
@@ -1733,6 +1744,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz", hash = "sha256:cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050", size = 186464, upload-time = "2024-06-28T14:03:44.161Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl", hash = "sha256:5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2", size = 250910, upload-time = "2024-06-28T14:03:41.161Z" },
+]
+
+[[package]]
+name = "openupgradelib"
+version = "3.13.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cssselect" },
+    { name = "lxml" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c6/a4/cb92e5c0b3cf215bd58fd8cd1b4ce44dd90b1464a7a61ab42aafcb8bfc8d/openupgradelib-3.13.2.tar.gz", hash = "sha256:ee137473b2b7de8c2c7a197fcc0917548f0d2998716cd94ab6a312805431d984", size = 7859712, upload-time = "2026-06-02T09:37:59.793Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0c/e8/51487ac2cf1bbee96ee6b749de23e3e343b91a02114661ee0cf56bc6471c/openupgradelib-3.13.2-py2.py3-none-any.whl", hash = "sha256:f6555cd1f0146a736a2044db4c872a0eabd82b66480764215f6c1c75d4a9cd65", size = 86880, upload-time = "2026-06-02T09:37:58.386Z" },
 ]
 
 [[package]]
