@@ -825,6 +825,8 @@ dependencies = [
     { name = "odoo-addon-portal-odoo-debranding" },
     { name = "odoo-addon-remove-odoo-enterprise" },
     { name = "odoo-addon-res-company-mastodon-link" },
+    { name = "odoo-addon-res-partner-linkedin-link" },
+    { name = "odoo-addon-res-partner-mastodon-link" },
     { name = "odoo-addon-server-environment" },
     { name = "odoo-addon-server-environment-ir-config-parameter" },
     { name = "odoo-addon-user-log-view" },
@@ -842,6 +844,7 @@ dependencies = [
     { name = "odoo-addon-web-view-leaflet-map" },
     { name = "odoo-addon-web-view-leaflet-map-partner" },
     { name = "odoo-addon-website-company-mastodon-link" },
+    { name = "odoo-addon-website-membership-non-paid-member" },
     { name = "odoo-addon-website-odoo-debranding" },
     { name = "odoo-addon-website-partner-form" },
     { name = "odoo-addon-website-search-header" },
@@ -903,6 +906,8 @@ requires-dist = [
     { name = "odoo-addon-portal-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-remove-odoo-enterprise", specifier = "==18.0.*" },
     { name = "odoo-addon-res-company-mastodon-link", specifier = "==18.0.*" },
+    { name = "odoo-addon-res-partner-linkedin-link", git = "https://github.com/OCA/social?subdirectory=res_partner_linkedin_link&rev=refs%2Fpull%2F1869%2Fhead" },
+    { name = "odoo-addon-res-partner-mastodon-link", git = "https://github.com/OCA/social?subdirectory=res_partner_mastodon_link&rev=refs%2Fpull%2F1870%2Fhead" },
     { name = "odoo-addon-server-environment", specifier = "==18.0.*" },
     { name = "odoo-addon-server-environment-ir-config-parameter", specifier = "==18.0.*" },
     { name = "odoo-addon-user-log-view", specifier = "==18.0.*" },
@@ -920,6 +925,7 @@ requires-dist = [
     { name = "odoo-addon-web-view-leaflet-map", specifier = "==18.0.*" },
     { name = "odoo-addon-web-view-leaflet-map-partner", specifier = "==18.0.*" },
     { name = "odoo-addon-website-company-mastodon-link", git = "https://github.com/OCA/website?subdirectory=website_company_mastodon_link&rev=refs%2Fpull%2F1141%2Fhead" },
+    { name = "odoo-addon-website-membership-non-paid-member", git = "https://github.com/OCA/vertical-association?subdirectory=website_membership_non_paid_member&rev=refs%2Fpull%2F221%2Fhead" },
     { name = "odoo-addon-website-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-website-partner-form", specifier = "==18.0.*" },
     { name = "odoo-addon-website-search-header", specifier = "==18.0.*" },
@@ -1440,6 +1446,23 @@ wheels = [
 ]
 
 [[package]]
+name = "odoo-addon-res-partner-linkedin-link"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/social?subdirectory=res_partner_linkedin_link&rev=refs%2Fpull%2F1869%2Fhead#7f8e1870c0f37f2a7609bfa6994cb10e8f0cf27e" }
+dependencies = [
+    { name = "odoo" },
+]
+
+[[package]]
+name = "odoo-addon-res-partner-mastodon-link"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/social?subdirectory=res_partner_mastodon_link&rev=refs%2Fpull%2F1870%2Fhead#c11797a10410e8d2625761d1cd7264b331a2c4d0" }
+dependencies = [
+    { name = "odoo" },
+    { name = "odoo-addon-base-fontawesome" },
+]
+
+[[package]]
 name = "odoo-addon-server-environment"
 version = "18.0.1.0.4.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1638,6 +1661,14 @@ dependencies = [
     { name = "odoo-addon-base-fontawesome" },
     { name = "odoo-addon-res-company-mastodon-link" },
     { name = "odoo-addon-website-social-media-link" },
+]
+
+[[package]]
+name = "odoo-addon-website-membership-non-paid-member"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/vertical-association?subdirectory=website_membership_non_paid_member&rev=refs%2Fpull%2F221%2Fhead#36e0a16b6237ea46c3c5eccc7cc01538632f2757" }
+dependencies = [
+    { name = "odoo" },
 ]
 
 [[package]]
