@@ -139,3 +139,9 @@ repos:
     rev: v0.9.32
     hooks:
       - id: pymarkdown
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+    rev: 0.12.5
+    hooks:
+      # Update the uv lockfile
+      - id: uv-lock
