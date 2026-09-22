@@ -39,6 +39,8 @@
         "account_statement_import_file_reconcile_oca",
         # OCA/community-data-files
         "account_tax_unece",
+        # OCA/credit-control
+        "account_invoice_overdue_reminder",
         # OCA/edi
         "account_invoice_facturx",
         # OCA/geospatial
