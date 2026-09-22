@@ -808,6 +808,7 @@ dependencies = [
     { name = "odoo-addon-account-dashboard-banner" },
     { name = "odoo-addon-account-financial-report" },
     { name = "odoo-addon-account-invoice-facturx" },
+    { name = "odoo-addon-account-invoice-overdue-reminder" },
     { name = "odoo-addon-account-lock-date-update" },
     { name = "odoo-addon-account-move-name-sequence" },
     { name = "odoo-addon-account-payment-method-base" },
@@ -890,6 +891,7 @@ requires-dist = [
     { name = "odoo-addon-account-dashboard-banner", specifier = "==18.0.*" },
     { name = "odoo-addon-account-financial-report", specifier = "==18.0.*" },
     { name = "odoo-addon-account-invoice-facturx", specifier = "==18.0.*" },
+    { name = "odoo-addon-account-invoice-overdue-reminder", specifier = "==18.0.*" },
     { name = "odoo-addon-account-lock-date-update", specifier = "==18.0.*" },
     { name = "odoo-addon-account-move-name-sequence", specifier = "==18.0.*" },
     { name = "odoo-addon-account-payment-method-base", specifier = "==18.0.*" },
@@ -1057,6 +1059,17 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/49/87/b0456293702a6395c6e22b7e34759ee82350ae60fb54dc13e18cc4a5aba3/odoo_addon_account_invoice_facturx-18.0.2.0.0.2-py3-none-any.whl", hash = "sha256:cc9e25a218614a16fac4119d90b9c95ad6cc1bbd8292cd81289341969eab155b", size = 63635, upload-time = "2026-01-06T02:58:21.759Z" },
+]
+
+[[package]]
+name = "odoo-addon-account-invoice-overdue-reminder"
+version = "18.0.1.6.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/64/14/157c6d977dae8439bd72ff8c090896b8bbb233a6342277d4b3e0878ea2f1/odoo_addon_account_invoice_overdue_reminder-18.0.1.6.0-py3-none-any.whl", hash = "sha256:ee6c0c26667302ce4bcb130d8722b256b27f77affa72067b7c0485c7e21b0992", size = 145879, upload-time = "2026-09-22T09:06:28.399Z" },
 ]
 
 [[package]]
