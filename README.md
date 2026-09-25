@@ -1,4 +1,4 @@
-[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
 
 # Custom Odoo Modules for OCA France Instance
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
@@ -17,15 +17,7 @@ This repository contains custom Odoo modules, used for the OCA instance hosted o
 
 [//]: # (addons)
 
-Available addons
-----------------
-addon | version | maintainers | summary
---- | --- | --- | ---
-[oca_france_all](oca_france_all/) | 18.0.1.0.0 | <a href='https://github.com/petrus-v'><img src='https://github.com/petrus-v.png' width='32' height='32' style='border-radius:50%;' alt='petrus-v'/></a> <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Reproduce OCA France Instance installing all dependencies
-[oca_france_base](oca_france_base/) | 18.0.2.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Base customization for the OCA France Instance
-[oca_france_membership](oca_france_membership/) | 18.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Membership customization for the OCA France Instance
-[oca_france_website_membership](oca_france_website_membership/) | 18.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Website Membership customization for the OCA France Instance
-[oca_france_website_partner](oca_france_website_partner/) | 18.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Website Partner customization for the OCA France Instance
+This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
 
 [//]: # (end addons)
 
