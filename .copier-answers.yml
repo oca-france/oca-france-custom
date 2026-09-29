@@ -1,8 +1,7 @@
 # Do NOT update manually; changes here will be overwritten by Copier
-_commit: bb1e532
+_commit: b71b261
 _src_path: https://github.com/oca-france/oca-addons-repo-template
 additional_ruff_rules: []
-ci: GitHub
 convert_readme_fragments_to_markdown: true
 enable_checklog_odoo: true
 generate_requirements_txt: true
@@ -17,6 +16,7 @@ odoo_test_flavor: Odoo
 odoo_version: 18.0
 org_name: OCA France
 org_slug: oca-france
+postgres_image: ''
 rebel_module_groups: []
 repo_description: This repository contains custom Odoo modules, used for the OCA instance
     hosted on https://www.oca-france.fr
