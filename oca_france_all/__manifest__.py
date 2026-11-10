@@ -13,6 +13,7 @@
         "account",
         "base_iban",
         "base_vat",
+        "base_automation",
         "calendar",
         "contacts",
         "l10n_fr_account",
