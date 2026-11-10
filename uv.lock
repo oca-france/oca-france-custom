@@ -805,6 +805,7 @@ dependencies = [
     { name = "lxml", extra = ["html-clean"] },
     { name = "num2words" },
     { name = "odoo" },
+    { name = "odoo-addon-account-bank-journal-balance" },
     { name = "odoo-addon-account-dashboard-banner" },
     { name = "odoo-addon-account-financial-report" },
     { name = "odoo-addon-account-invoice-facturx" },
@@ -888,6 +889,7 @@ requires-dist = [
     { name = "lxml", extras = ["html-clean"] },
     { name = "num2words" },
     { name = "odoo", git = "https://github.com/OCA/OCB?branch=18.0" },
+    { name = "odoo-addon-account-bank-journal-balance", git = "https://github.com/akretion/odoo-usability?subdirectory=account_bank_journal_balance&branch=18.0" },
     { name = "odoo-addon-account-dashboard-banner", specifier = "==18.0.*" },
     { name = "odoo-addon-account-financial-report", specifier = "==18.0.*" },
     { name = "odoo-addon-account-invoice-facturx", specifier = "==18.0.*" },
@@ -1010,6 +1012,14 @@ dependencies = [
     { name = "xlsxwriter" },
     { name = "xlwt" },
     { name = "zeep" },
+]
+
+[[package]]
+name = "odoo-addon-account-bank-journal-balance"
+version = "18.0.1.0.0.2"
+source = { git = "https://github.com/akretion/odoo-usability?subdirectory=account_bank_journal_balance&branch=18.0#5d1877e3d6d6e919e238e84bc5fc26e2a0cb7451" }
+dependencies = [
+    { name = "odoo" },
 ]
 
 [[package]]
@@ -1155,17 +1165,18 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-api"
-version = "18.0.3.0.0.3"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api&branch=18.0#78492539271e2388b91ef324838da6426be5c9ff" }
+version = "18.0.3.0.0.7"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api&branch=18.0#3fd4440dae90020955693b9e50be3c775556f742" }
 dependencies = [
     { name = "odoo" },
+    { name = "odoo-addon-account-bank-journal-balance" },
     { name = "odoo-addon-account-statement-import-base" },
 ]
 
 [[package]]
 name = "odoo-addon-account-statement-import-api-qonto"
 version = "18.0.1.0.0.1"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api_qonto&branch=18.0#78492539271e2388b91ef324838da6426be5c9ff" }
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api_qonto&branch=18.0#3fd4440dae90020955693b9e50be3c775556f742" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-in-invoice-api" },
@@ -1211,7 +1222,7 @@ wheels = [
 [[package]]
 name = "odoo-addon-account-statement-import-in-invoice"
 version = "18.0.1.0.0"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice&branch=18.0#78492539271e2388b91ef324838da6426be5c9ff" }
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice&branch=18.0#3fd4440dae90020955693b9e50be3c775556f742" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-reconcile-oca" },
@@ -1220,8 +1231,8 @@ dependencies = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-in-invoice-api"
-version = "18.0.1.0.0.1"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice_api&branch=18.0#78492539271e2388b91ef324838da6426be5c9ff" }
+version = "18.0.1.0.0.2"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice_api&branch=18.0#3fd4440dae90020955693b9e50be3c775556f742" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-api" },

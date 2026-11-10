@@ -38,6 +38,7 @@ dependencies = [
   "pygments",                  # to silence Odoo warning which uses pygments for README.rst rendering
   # indirect dependencies with Open PRs needs to be declared explicitly
   # to be installed from git branch
+  "odoo-addon-account_bank_journal_balance==18.0.*",
   "odoo-addon-account_statement_import_api==18.0.*",
   "odoo-addon-account_statement_import_api_qonto==18.0.*",
   "odoo-addon-account_statement_import_in_invoice_api==18.0.*",
@@ -79,6 +80,7 @@ odoo = { git = "https://github.com/OCA/OCB", branch = "18.0" }
 # unreleased dependency, add it to test-requirements.txt to let the
 # test pipeline to use it as well
 odoo-addons-design-themes = { git = "https://github.com/petrus-v/design-themes", branch = "18.0-add-pyproject" }
+odoo-addon-account_bank_journal_balance = { git = "https://github.com/akretion/odoo-usability", branch = "18.0", subdirectory = "account_bank_journal_balance" }
 odoo-addon-account_statement_import_api = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_api" }
 odoo-addon-account_statement_import_api_qonto = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_api_qonto" }
 odoo-addon-account_statement_import_in_invoice_api = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_in_invoice_api" }

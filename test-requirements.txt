@@ -1,4 +1,5 @@
 coverage[toml]
+odoo-addon-account-bank-journal-balance @ git+https://github.com/akretion/odoo-usability@18.0#subdirectory=account_bank_journal_balance
 odoo-addon-account-statement-import-api @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_api
 odoo-addon-account-statement-import-api-qonto @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_api_qonto
 odoo-addon-account-statement-import-in-invoice-api @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_in_invoice_api
