@@ -86,6 +86,7 @@ odoo-addon-account_statement_import_api_qonto = { git = "https://github.com/akre
 odoo-addon-account_statement_import_in_invoice_api = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_in_invoice_api" }
 odoo-addon-account_statement_import_in_invoice = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_in_invoice" }
 odoo-addon-website_company_mastodon_link = { git = "https://github.com/OCA/website", rev = "refs/pull/1141/head", subdirectory = "website_company_mastodon_link" }
+odoo-addon-website_event_no_registration = { git  = "https://github.com/OCA/website", rev = "refs/pull/1226/head", subdirectory = "website_event_no_registration" }
 
 # Example to develop module from an other repository
 # installing in editable mode
