@@ -4,7 +4,7 @@
 {
     "name": "OCA France Customization - All",
     "summary": "Reproduce OCA France Instance installing all dependencies",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "license": "AGPL-3",
     "author": "Pierre Verkest, OCA France",
     "website": "https://www.oca-france.fr",
