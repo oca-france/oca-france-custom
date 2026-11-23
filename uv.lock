@@ -855,6 +855,7 @@ dependencies = [
     { name = "odoo-addon-web-view-leaflet-map" },
     { name = "odoo-addon-web-view-leaflet-map-partner" },
     { name = "odoo-addon-website-company-mastodon-link" },
+    { name = "odoo-addon-website-event-no-registration" },
     { name = "odoo-addon-website-membership-non-paid-member" },
     { name = "odoo-addon-website-odoo-debranding" },
     { name = "odoo-addon-website-partner-form" },
@@ -939,6 +940,7 @@ requires-dist = [
     { name = "odoo-addon-web-view-leaflet-map", specifier = "==18.0.*" },
     { name = "odoo-addon-web-view-leaflet-map-partner", specifier = "==18.0.*" },
     { name = "odoo-addon-website-company-mastodon-link", git = "https://github.com/OCA/website?subdirectory=website_company_mastodon_link&rev=refs%2Fpull%2F1141%2Fhead" },
+    { name = "odoo-addon-website-event-no-registration", git = "https://github.com/OCA/website?subdirectory=website_event_no_registration&rev=refs%2Fpull%2F1226%2Fhead" },
     { name = "odoo-addon-website-membership-non-paid-member", specifier = "==18.0.*" },
     { name = "odoo-addon-website-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-website-partner-form", specifier = "==18.0.*" },
@@ -1703,6 +1705,14 @@ dependencies = [
     { name = "odoo-addon-base-fontawesome" },
     { name = "odoo-addon-res-company-mastodon-link" },
     { name = "odoo-addon-website-social-media-link" },
+]
+
+[[package]]
+name = "odoo-addon-website-event-no-registration"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/website?subdirectory=website_event_no_registration&rev=refs%2Fpull%2F1226%2Fhead#6d0ee28ae117f2ba8587d81c3faf971a69d5e46e" }
+dependencies = [
+    { name = "odoo" },
 ]
 
 [[package]]

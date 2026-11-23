@@ -93,6 +93,7 @@
         "web_environment_ribbon",
         # OCA/website
         "website_company_mastodon_link",
+        "website_event_no_registration",
         "website_odoo_debranding",
         "website_partner_form",
         "website_search_header",
